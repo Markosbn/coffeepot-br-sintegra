@@ -8,7 +8,7 @@
     </parent>   
     <groupId>com.github.jean-merelis</groupId>
     <artifactId>coffeepot-br-sintegra</artifactId>
-    <version>1.0.1-RC1</version>
+    <version>1.0.2-RC1</version>
     <packaging>jar</packaging>
 
     <name>coffeepot-br-sintegra</name>
@@ -138,4 +138,16 @@
             <version>1.2.0-FINAL</version>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>maven-releases</name>
+            <url>http://supbs.ddns.net:9090/repository/maven-releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>maven-snapshots</name>
+            <url>http://supbs.ddns.net:9090/repository/maven-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
